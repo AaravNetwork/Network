@@ -12,6 +12,9 @@
   --color-white: #fff;
   --color-gray: #333333;
 
+  --color-font: #253858;
+  --font-weight: 500;
+
   --transition: 0.5s;
 }
 html{
@@ -33,16 +36,22 @@ h1,h2,h3,h4,h5,h6,p,a,ol,ul,li{
 img{
     width: 100%;
 }
-h1,h2,h3,h4,h5,h6,p,a{
-    color: var(--color-gray);
+h1,h2,h3,h4,h5,h6{
+    color: var(--color-font);
+    font-weight: var(--font-weight);
 }
-
-
+p,a{
+  color: var(--color-gray);
+}
 /* ================= GLOBAL CLASSES START =================*/
 .bg-css-center{
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
-
+.flex-jus-align-center{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
 /* ================= GLOBAL CLASSES END =================*/

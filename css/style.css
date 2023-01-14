@@ -1,8 +1,13 @@
 /* ================= INDEX-BODY START =================*/
-.index-body-content{
-    background: url('../images/index-bg.jpg');
+.index-body-wrap{
+    background: var(--color-white);
     min-height: 100vh;
     min-width: 100vw;
     overflow: hidden;
+}
+.index-body-content-wrap{
+    height: 100vh;
+    width: 50%;
+    margin: auto;
 }
 /* ================= INDEX-BODY END =================*/
