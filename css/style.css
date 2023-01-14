@@ -1,0 +1,8 @@
+/* ================= INDEX-BODY START =================*/
+.index-body-content{
+    background: url('../images/index-bg.jpg');
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+}
+/* ================= INDEX-BODY END =================*/

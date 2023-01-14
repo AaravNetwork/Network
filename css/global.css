@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-primary: #4169E1;
+  --color-secondary: #6988E7;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray: #333333;
+
+  --transition: 0.5s;
+}
+html{
+    font-size: 100%;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+header,
+footer,
+section {
+  position: relative;
+}
+h1,h2,h3,h4,h5,h6,p,a,ol,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    color: var(--color-gray);
+}
+
+
+/* ================= GLOBAL CLASSES START =================*/
+.bg-css-center{
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+/* ================= GLOBAL CLASSES END =================*/
