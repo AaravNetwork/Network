@@ -6,8 +6,8 @@
   box-sizing: border-box;
 }
 :root {
-  --color-primary: #4169E1;
-  --color-secondary: #6988E7;
+  --color-primary: #4169e1;
+  --color-secondary: #6988e7;
   --color-black: #000;
   --color-white: #fff;
   --color-gray: #333333;
@@ -15,10 +15,13 @@
   --color-font: #253858;
   --font-weight: 500;
 
+  --btn-padding: 8px 30px;
+  --btn-radius: 5px;
+
   --transition: 0.5s;
 }
-html{
-    font-size: 100%;
+html {
+  font-size: 100%;
 }
 body {
   font-family: "Inter", sans-serif;
@@ -28,30 +31,68 @@ footer,
 section {
   position: relative;
 }
-h1,h2,h3,h4,h5,h6,p,a,ol,ul,li{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
-h1,h2,h3,h4,h5,h6{
-    color: var(--color-font);
-    font-weight: var(--font-weight);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-font);
+  font-weight: var(--font-weight);
 }
-p,a{
+p,
+a {
+  font-weight: 400;
   color: var(--color-gray);
 }
 /* ================= GLOBAL CLASSES START =================*/
-.bg-css-center{
+.bg-css-center {
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
-.flex-jus-align-center{
+.flex-jus-align-center {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+  flex-direction: column !important;
+}
+.flex-gap {
+  display: flex;
+  gap: 15px;
+}
+.blue-btn {
+  border: 1px solid transparent;
+  outline: none;
+  padding: var(--btn-padding);
+  color: var(--color-white);
+  background: var(--color-primary);
+  transition: var(--transition);
+  border-radius: var(--btn-radius);
+}
+.blue-btn:hover {
+  background: var(--color-white);
+  border: 1px solid var(--color-primary);
+}
+.gap {
+  gap: 15px;
 }
 /* ================= GLOBAL CLASSES END =================*/
